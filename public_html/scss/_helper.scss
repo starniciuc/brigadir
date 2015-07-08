@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext,latin);
+
+$font-pt: 'PT Sans', sans-serif;
+
+.wrapper{
+  background: url("../img/content-bg.jpg") repeat 0 0;
+  font-family: $font-pt;
+}
+body{
+  font-family: $font-pt; 
+}
+
+.form-check{
+  position: relative;
+
+  label{
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: normal;
+    float: none;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"]
+  {
+    @include opacity(0);
+    position: absolute;
+  }
+
+  input[type="radio"] + label,
+  input[type="checkbox"] + label
+  {
+    cursor: pointer;
+    &:before{
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      background-color: #FFFFFF;
+      width: 17px;
+      height: 17px;
+      @include box-shadow(0 0 0 1px rgba(94, 101, 104, 0.21));
+      border: 3px solid #FFFFFF;
+      border-radius: 10px;
+      margin-right: 10px;
+      margin-bottom: 2px;
+    }
+  }
+
+  input[type="checkbox"] + label{
+    &:before{
+      border-radius: 4px;
+    }
+  }
+
+  input[type="radio"]:checked + label,
+    input[type="checkbox"]:checked + label{
+    &:before{
+      background-color: #91211a;
+    }
+  }
+
+  input[type="checkbox"]:checked + label{
+
+  }
+}
