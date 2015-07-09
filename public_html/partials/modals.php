@@ -286,5 +286,48 @@
     </div>
   </div>
 </div>
-</div>
+
+<!-- Modal -->
+<div class="modal" id="slider" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">  
+  <div class="modal-dialog  modal-slider" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <button type="button" class="btn btn-delete" data-dismiss="modal" aria-label="Close">x</button>
+        <div class="modal-slider-side">
+          <div class="image-side">
+            <img src=""
+          </div>
+        </div>
+      </div>
+      <div class="view-page">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="image-view">
+              <img src="img/slide1.png" alt="slide" id="imageView">
+            </div>
+        
+            <ul class="thumbnail-slide">
+              <li class="selected">
+                <img src="img/slide0.png" alt="slide">
+              </li>
+              <li>
+                <img src="img/slide2.png" alt="slide">
+              </li>
+              <li>
+                <img src="img/slide3.png" alt="slide">
+              </li>
+              <li>
+                <img src="img/slide4.png" alt="slide">
+              </li>
+              <li>
+                <img src="img/slide5.png" alt="slide">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>

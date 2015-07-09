@@ -1,25 +1,25 @@
 <div class="item-order">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-sm-3">
             <span class="vert-middle"></span>
             <div class="first-block">
                 <a href="javascript: void(0)" class="open-order">Заказ № 12345</a>
                 <p>от 25.12.2014</p>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-sm-2">
             <span class="vert-middle"></span>
             <p class="price">12 365</p>
         </div>
-        <div class="col-md-2">
+        <div class="col-sm-2">
             <span class="vert-middle"></span>
             <p class="status">ждет отправки</p>
         </div>
-        <div class="col-md-2 text-center">
+        <div class="col-sm-2 text-center">
             <span class="vert-middle"></span>
             <a href="#"><i class="icon word"></i></a>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-sm-3 text-center">
             <span class="vert-middle"></span>
             <button class="btn btn-pers">Скачать в PDF</button>
         </div>
@@ -66,30 +66,30 @@
         </table>
         <div class="order-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <input type="text" class="form-control" placeholder="Введите объяснения...">
                 </div>
-                <div class="col-md-3 padding-left-0">
+                <div class="col-sm-3 padding-left-0">
                     <button class="btn btn-pers">Аннулировать заказ</button>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <button class="btn btn-red">Редактировать заказ</button>
                 </div>
             </div>
             <div class="row margin-top-20">
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <p>Бонусов начислено:</p>
                     <p><strong class="font-18">12345</strong></p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <p>Сумма:</p>
                     <p><strong>2900</strong> руб.-</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <p>Бонусов начислено:</p>
                     <p><strong>500</strong> руб.-</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <span class="total">ИТОГО: <strong>2900</strong> руб.-</span>
                 </div>
             </div>

@@ -41,19 +41,19 @@
 
                 <div class="head-order">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <span class="vert-middle"></span><span class="text">Заказ </span>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-2">
                             <span class="vert-middle"></span><span class="text">Сумма заказа (руб.-)</span>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-2">
                             <span class="vert-middle"></span><span class="text">Статус заказа</span>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-2">
                             <span class="vert-middle"></span><span class="text">Наличие счета оплаты </span>
                         </div>
-                        <div class="col-md-3"></div>
+                        <div class="col-sm-3"></div>
                     </div>
                 </div>
 

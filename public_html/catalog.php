@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3 hidden-sm">
               <div class="menu-left">
                 <ul class="level-1">
                   <li><a href="#">Инструмент</a></li>
@@ -101,33 +101,33 @@
                 </ul>
               </div>
             </div>
-            <div class="col-sm-9">
+            <div class="col-md-9">
               <h1 class="title">Список товаров</h1>
 
               <div class="head-order catalog">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                     <span class="vert-middle"></span><span class="text">Выберите тип товара: </span>
                   </div>
-                  <div class="col-md-2 all-side">
+                  <div class="col-sm-2 all-side">
                     <div class="form-check">
                       <input type="radio" name="star" id="r1">
                       <label for="r1"><i class="icon-filter star"></i> Все</label>
                     </div>
                   </div>
-                  <div class="col-md-2 day-product">
+                  <div class="col-sm-2 day-product">
                     <div class="form-check">
                       <input type="radio" name="star" id="r2">
                       <label for="r2"><i class="icon-filter percent"></i>  Товар дня</label>
                     </div>
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <div class="form-check">
                       <input type="radio" name="star" id="r3">
                       <label for="r3"><i class="icon-filter new"></i>  Новинка</label>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                     <select class="selectpicker">
                       <option>Сортировать</option>
                       <option>Сначала дорогие</option>
@@ -139,7 +139,7 @@
 
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs1.png" alt="produs">
                       <i class="icon promo"></i>
@@ -149,18 +149,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>
@@ -180,7 +180,7 @@
               </div>
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs2.png" alt="produs">
                       <i class="icon promo"></i>
@@ -190,18 +190,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>
@@ -221,7 +221,7 @@
               </div>
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs3.png" alt="produs">
                       <i class="icon new"></i>
@@ -231,18 +231,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>
@@ -262,7 +262,7 @@
               </div>
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs4.png" alt="produs">
                       <i class="icon promo"></i>
@@ -272,18 +272,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>
@@ -303,7 +303,7 @@
               </div>
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs1.png" alt="produs">
                       <i class="icon promo"></i>
@@ -313,18 +313,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>
@@ -344,7 +344,7 @@
               </div>
               <div class="item-order catalog-mode">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-3">
                      <div class="image-produs">
                       <img src="img/produs1.png" alt="produs">
                       <i class="icon promo"></i>
@@ -354,18 +354,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <a href="#">ФАСАДНЫЕ КРАСКИ - Краска Eskaro Titan Facade Фасадная 1 л</a>
                     <p class="price">Цена: <span class="old-price">600 <span class="small-text">руб.-</span></span> <span class="new-price">580 <span class="small-text">руб.-</span></span></p>
                   </div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-sm-2 text-center">
                      <div class="counter">
                       <button class="btn-counter left"><i class="fa fa-caret-left"></i></button>
                       <input type="text" value="1">
                       <button class="btn-counter right"><i class="fa fa-caret-right"></i></button>
                     </div>
                   </div>
-                  <div class="col-md-3 button-side">
+                  <div class="col-sm-3 button-side">
                     <button class="btn btn-red pull-right">В корзину</button>
                     <button class="btn btn-pers open-order pull-right">Применение</button>
                   </div>

@@ -3,7 +3,6 @@
     <div class="row">
       <div class="navbar-header">
         <a href="#" class="visible-xs logo pull-left"><img src="img/logo.png" alt="Logo"></a>
-        <a href="tel:+73912277269" class="visible-xs button-mobile-text pull-left">391 227-72-69</a>
         <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>

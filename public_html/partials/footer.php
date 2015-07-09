@@ -5,14 +5,14 @@
     <div class="shadow">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <a href="#"><img src="img/logo-black.png" alt="brigadir"></a>
                 </div>
-                <div class="col-md-5 text-center">
+                <div class="col-sm-5 text-center">
                     <a href="#" class="call-numb"><i class="icons tel"></i> <span>(391)</span> 123 45 67</a>
                     <button class="btn btn-red">Получить консультацию</button>
                 </div>
-                <div class="col-md-3 contact-footer">
+                <div class="col-sm-3 contact-footer">
                     <p>660062, г. Красноярск,</p>
                     <p>ул. Название улицы, оф. 123</p>
                 </div>

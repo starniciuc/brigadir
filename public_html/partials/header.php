@@ -27,19 +27,19 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3">
                 <div class="logo">
                     <a href="#"><img src="img/logo.png" alt="brigadir"></a>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2">
                 <div class="time-to-work">
                     <span class="icons time"></span>
                     <p>ежедневно </p>
                     <p>с 9 до 20</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="basket-block">
                     <div class="name">Корзина</div>
                     <i class="icons basket"></i>
@@ -50,9 +50,9 @@
                     <a href="#" class="btn btn-pers">Оформить</a>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-3">
                 <div class="user-block-header">
-                    <p><a href="#" data-toggle="modal" data-target="#product"><i class="icons reg"></i> <span>Регистрация</span></a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#slider"><i class="icons reg"></i> <span>Регистрация</span></a></p>
                     <p><a href="#" data-toggle="modal" data-target="#login"><i class="icons login"></i> <span>Войти в кабинет</span></a></p>
                 </div>
             </div>

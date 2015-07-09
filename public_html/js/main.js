@@ -11,9 +11,10 @@ if ($(".thumb-slide").length) {
         slideMargin: 5
     });
 }
+var mSlide = " ";
 
 if ($(".thumbnail-slide").length) {
-    $(".thumbnail-slide").bxSlider({
+    mSlide = $(".thumbnail-slide").bxSlider({
         minSlides: 5,
         maxSlides: 5,
         pager: false,
@@ -21,6 +22,10 @@ if ($(".thumbnail-slide").length) {
         slideWidth: 102
     });
 }
+
+$('#slider').on('shown.bs.modal', function() {
+    mSlide.reloadSlider();
+});
 
 $(".thumbnail-slide li img").click(function(){
     $this = $(this);

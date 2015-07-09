@@ -1,10 +1,153 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Mar 9, 2015, 4:39:54 PM
-    Author     : mstarniciuc
-*/
+@media screen and (max-width: 1200px) {
+  header{
+    .user-block-header p a{
+      font-size: 12px;
+    }
+    .basket-block{
+      font-size: 12px;
+    }
+    .time-to-work{
+      span{
+        left: 15px;
+      }
+    }
+  }
 
+  main .head-order.catalog .row > div{
+    font-size: 13px;
+    height: 50px;
+    label{
+      font-size: 13px;
+    }
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+      width: auto;
+    }
+  }
+  main .head-order.catalog .day-product{
+    width: 120px;
+  }
+  main .item-order.catalog-mode .counter input{
+    width: 38px;
+  }
+  main .item-order .order-footer input.form-control, main .item-order .order-footer .btn{
+    font-size: 14px;
+  }
+  main .head-order .row div{
+    font-size: 14px;
+  }
+  main .add-to-cart .btn-red{
+    width: 130px;
+  }
+  main .add-to-cart .counter{
+    padding: 0;
+  }
+  nav ul.menu li .submenu{
+    width: 940px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header{
+    height: auto;
+
+    .logo{
+      padding-top: 20px;
+      img{
+        width: 100%;
+      }
+    }
+
+    .basket-block{
+      height: 80px;
+      text-align: center;
+
+      a{
+        margin-top: 3px;
+      }
+    }
+    .time-to-work{
+      padding-left: 0;
+
+      span{
+        display: none;
+      }
+    }
+    .user-block-header p a{
+      font-size: 14px;
+    }
+  }
+
+  nav ul.menu li .submenu{
+    width: 720px;
+  }
+
+  footer{
+    height: auto;
+  }
+  main .item-order span.vert-middle{
+    display: inline;
+  }
+  main .verify{
+    position: relative;
+  }
+  .content-panel{
+    .text-right{
+      text-align: left;
+    }
+  }
+  main .tab-header{
+    margin-top: 20px;
+  }
+  main .tab-header li{
+    min-width: 150px;
+  }
+}
+
+@media(max-width:767px){
+  header{
+    display: none;
+  }
+  nav{
+    margin-top: 0;
+  }
+  .navbar-header{
+    background: url("../img/header-bg.jpg") repeat 0 0;
+    @include box-shadow(2px 2px 46px rgba(0, 0, 0, 0.7));
+
+    button{
+      color: #FFECA1;
+      font-size: 30px;
+    }
+    .navbar-toggle{
+      margin: 0 15px;
+      padding: 0;
+    }
+    a{
+      color: #FFECA1;
+      font-size: 30px;
+    }
+
+    .logo{
+      img{
+        height: 35px;
+        margin: 10px 15px;
+      }
+    }
+  }
+  main .head-order.catalog .all-side,
+  main .head-order.catalog .day-product{
+    width: 100%;
+  }
+  .modal-dialog{
+    width: 100%;
+
+    &.modal-slider{
+      width: 100%;
+    }
+  }
+}
+@media(max-width: 600px){
+  .service-block{
+    display: none;
+  }
+}
